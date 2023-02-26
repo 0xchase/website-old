@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chase Kanipe</title>
+    <meta content="This is the personal website for Chase Kanipe" name="description"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- For nav icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="cv.html">Curriculum Vitae</a>
+        <a href="writeups.html">Writeups</a>
+        <a class="active" href="music.html">Music</a>
+        <a href="reading-list.html">Reading List</a>
+        <a href="blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Music</h1>
+        <p>Coming soon</p>
+    </div>
+</body>
+
+<script>
+    function shrinkNavBar() {
+        var x = document.getElementById("navbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+
+    /*window.onscroll = function() {
+        stickNavBar()
+    };
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function stickNavBar() {
+      if (window.pageYOffset >= 100) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }*/
+    </script>
+</html>
