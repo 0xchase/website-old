@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- For nav icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="navbar" id="navbar" style="margin-left: 100px">
+    <div class="navbar" id="navbar">
         <a href="index.html">Home</a>
         <a class="active" href="cv.html">Curriculum Vitae</a>
         <a href="writeups.html">Writeups</a>
@@ -19,65 +19,66 @@
     </div>
 </head>
 
-<body style="max-width: 1000px;">
+<body>
     <div class="content">
         <h1>Curriculum Vitae</h1>
-        <p style="margin-left: 100px; margin-right: 50px">I'm a recent college graduate with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.</p>
-        <div class="row">
-            <div style="width: 75%">
-                <h2>Work Experience</h2>
-                <h3>Procedural Audio</h3>
-                <p class="p2">Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.</p>
+        <p>I'm a recent college graduate with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.</p>
+ 
+		<h2>Work Experience</h2>
+		<h3>Procedural Audio</h3>
+		<p class="p2">Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.</p>
 
-                <h3>Margin Research</h3>
-                <p class="p2">
-                    Performed vulnerability analysis on various IOT devices as part of a "winternship" program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware.
-                </p>
+		<h2>Internship Experience</h2>
+		<h3>Margin Research</h3>
+		<p class="p2">
+			Performed vulnerability analysis on various IOT devices as part of a "winternship" program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware.
+		</p>
 
-                <h3>Mantech Cooperation</h3>
-                <p class="p2">
-                    Performed vulnerability analysis on routers, including reverse engineering binaries, reporting on firmware behavior, and documenting various weaknesses
-                </p>
+		<h3>Mantech Cooperation</h3>
+		<p class="p2">
+			Performed vulnerability analysis on routers, including reverse engineering binaries, reporting on firmware behavior, and documenting various weaknesses
+		</p>
 
-                <h3>Correct Computation</h3>
-                <p class="p2">
-                    Worked on binary analysis tools built on top of the BAP (binary analysis platform) framework as part of a startup consisting of students and professors from UMD. Contributed to the struct rewriting functionality of the Checked-C compiler, an extension of clang which includes C/C++ types that ensure memory safety.
-                </p>
+		<h3>Correct Computation</h3>
+		<p class="p2">
+			Worked on binary analysis tools built on top of the BAP (binary analysis platform) framework as part of a startup consisting of students and professors from UMD. Contributed to the struct rewriting functionality of the Checked-C compiler, an extension of clang which includes C/C++ types that ensure memory safety.
+		</p>
 
-                <h3>Joint Quantum Institute</h3>
-                <p class="p2">
-                    Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiements. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA.
-                </p>
+		<h3>Joint Quantum Institute</h3>
+		<p class="p2">
+			Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiements. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA.
+		</p>
 
-                <h3>UMD AUSS Lab</h3>
-                <p class="p2">
-                    Developed a custom platform to teach students about developing secure drone firmware. Completed trainings in soldering, programming, and cloud-based machine learning. 
-                </p>
+		<h3>UMD AUSS Lab</h3>
+		<p class="p2">
+			Developed a custom platform to teach students about developing secure drone firmware. Completed trainings in soldering, programming, and cloud-based machine learning. 
+		</p>
 
-                <h3>MPLEX VR</h3>
-                <p class="p2">
-                    Created virtual environments using tools like Unreal Engine 4, Blender, Maya, Substance Painter, and GIMP. Designed particle effects and destruction simulations in Houdini and UE4.
-                </p>
+		<h3>MPLEX VR</h3>
+		<p class="p2">
+			Created virtual environments using tools like Unreal Engine 4, Blender, Maya, Substance Painter, and GIMP. Designed particle effects and destruction simulations in Houdini and UE4.
+		</p>
 
-                <h3>Precision Alliance</h3>
-                <p class="p2">
-                    Contributed to a web application to facilitate the configuration and sale of linear bearings, XY stages, and more. Developed scripts to automatically generate these web pages. 
-                </p>
-            </div>
-            <div style="width: 20px"></div>
-            <div style="width: 25%">
-                <p><b>Programming (Fluent)</b><br>Rust, C++, C, Dart, Python, Java</p>
-                <p><b>Programming (Other)</b><br>x86 and ARM assembly, OCaml, Ruby, Racket, Javascript, HTML</p>
-                <p><b>Static Analysis</b><br>Radare2/Rizin, Ghidra, BinaryNinja,  IDA Pro, Capstone</p>
-                <p><b>Debugging</b><br>x64dbg, WinDbg, GDB</p>
-                <p><b>Penetration Testing</b><br>Metasploit, Nmap, Wireshark, Burp Suite, etc</p>
-                <p><b>Symbolic Execution</b><br>Angr, BAP</p>
-                <p><b>Fuzzing</b><br>AFL</p>
-                <p><b>Forensics</b><br>Volatility, Binwalk</p>
-                <p><b>VFX</b><br>Unreal Engine 5, Blender 3D, GIMP, Substance Painter</p>
-                <p><b>Version Control</b><br>Git, Subversion</p>
-            </div>
-        </div>
+		<h3>Precision Alliance</h3>
+		<p class="p2">
+			Contributed to a web application to facilitate the configuration and sale of linear bearings, XY stages, and more. Developed scripts to automatically generate these web pages. 
+		</p>
+
+		<h2>Skills</h2>
+		<p>
+			<ul>
+				<li><b>Programming (Fluent)</b>: Rust, C++, C, Dart, Python, Java</li>
+				<li><b>Programming (Proficient)</b>: x86 and ARM assembly, OCaml, Ruby, Racket, Javascript, HTML</li>
+				<li><b>Static Analysis</b>: Radare2/Rizin, Ghidra, BinaryNinja,  IDA Pro, Capstone</li>
+				<li><b>Debugging</b>: x64dbg, WinDbg, GDB</li>
+				<li><b>Penetration Testing</b>: Metasploit, Nmap, Wireshark, Burp Suite, etc</li>
+				<li><b>Symbolic Execution</b>: Angr, BAP</li>
+				<li><b>Fuzzing</b>: AFL</li>
+				<li><b>Forensics</b>: Volatility, Binwalk</li>
+				<li><b>VFX</b>: Unreal Engine 5, Blender 3D, GIMP, Substance Painter</li>
+				<li><b>Version Control</b>: Git, Subversion</li>
+			</ul>
+		</p>
 
         <br>
         <h2>Selected Projects</h2>
@@ -85,33 +86,20 @@
 
         <br>
         <h2>Presentations</h2>
-        <div class="row">
-            <div style="width: 50%">
-                <iframe width="481" height="270" src="https://www.youtube.com/embed/cwmXeA4Acv0" title="ADC Talk 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div style="width: 40px"></div>
-            <div style="width: 50%">
-                <h2 style="margin-top: 0px">Audio Developer Conference 2022</h2>
-                <p><b>Abstract</b>: Piracy remains a ubiquitous and persistent problem for audio developers attempting to commercialize their products. This is in part because most custom license checking schemes contain fairly basic mistakes that make it easy for crackers to bypass them. This presentation unveils tricks and techniques commonly used by crackers and explains how they can be made more resistant to common attacks.</p>
-            </div>
-        </div>
-        <div style="height: 40px"></div>
-        <div class="row">
-            <div style="width: 50%">
-                <h2 style="margin-top: 0px">Radare2 Conference 2020</h2>
-                <p><b>Abstract</b>: This talk is an overview the new "Modality" radare2 plugin to perform symbolic execution. The tool is built on top of angr, and provides a faster alternative to using angr than writing scripts. This integration has numerous advantages, including easy switching between concrete and symbolic execution, useful visualizations of the angr backend, as well as a suite of features for vulnerability detection and exploit generation.</p>
-            </div>
-            <div style="width: 40px"></div>
-            <div style="width: 50%">
-                <iframe width="481" height="270" src="https://www.youtube.com/embed/F35El30Jj80" title="Symbolic execution in radare2 - r2con 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
+		
+		<h3>Audio Developer Conference 2022</h3>
+		<p class="p2"><b>Abstract</b>: Piracy remains a ubiquitous and persistent problem for audio developers attempting to commercialize their products. This is in part because most custom license checking schemes contain fairly basic mistakes that make it easy for crackers to bypass them. This presentation unveils tricks and techniques commonly used by crackers and explains how they can be made more resistant to common attacks.</p>
+		<iframe width="481" height="440" src="https://www.youtube.com/embed/cwmXeA4Acv0" title="ADC Talk 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+		<h3>Radare2 Conference 2020</h3>
+		<p class="p2"><b>Abstract</b>: This talk is an overview the new "Modality" radare2 plugin to perform symbolic execution. The tool is built on top of angr, and provides a faster alternative to using angr than writing scripts. This integration has numerous advantages, including easy switching between concrete and symbolic execution, useful visualizations of the angr backend, as well as a suite of features for vulnerability detection and exploit generation.</p>
+		<iframe width="481" height="440" src="https://www.youtube.com/embed/F35El30Jj80" title="Symbolic execution in radare2 - r2con 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <br>
 
         <h2>Repositories</h2>
         <p class="p1">I am very active on Github, with over 1500 commits in the last year. Below you can see some of my open-source projects and activity over the last year. Click the image for more information.</p>
-        <a href="https://github.com/0xchase" target="_blank"><img src="images/repositories.png" style="margin-top: 10px"></img></a>
+        <a href="https://github.com/0xchase" target="_blank"><img src="images/repositories.png" style="margin-top: 10px; width: 800px"></img></a>
         <br><br><br>
         <h2>Education</h2>
         <h3>Degrees</h3>
