@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     max-width: 800px;
     margin: 0 auto;
@@ -12,7 +16,12 @@ body b {
 }
 
 a {
-    color: #72bee1
+    color: #72bee1;
+    transition: 0.1s
+}
+
+a:hover {
+    color: #9fd3eb;
 }
 
 li {
@@ -119,14 +128,13 @@ p b {
     position: sticky;
 }
 
+.focus,
 .navbar a:hover {
     background-color: #eee;
     color: #72bee1
 }
 
 .navbar a.active {
-    /*background-color: #67cbe6;
-    color: white;*/
     color: black;
     font-weight: 400
 }
