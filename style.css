@@ -7,6 +7,10 @@ body {
     font-weight: 300;
 }
 
+body b {
+    color: #666;
+}
+
 a {
     color: #72bee1
 }
@@ -31,6 +35,32 @@ h2 {
     font-size: 24px;
 }
 
+.book {
+    display: inline-block;
+    width: 170px;
+    height: 320px;
+    margin: 8px 8px 8px 8px;
+    vertical-align: top;
+}
+
+.book p {
+    margin-top: 2px;
+    text-align: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.25em;
+    color: #222;
+}
+
+.book img {
+    width: 170px;
+    height: 240px;
+    margin: 5px 5px 5px 5px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
 h3 {
     color: #444;
     font-weight: 300;
@@ -51,6 +81,10 @@ p {
     margin-bottom: 0px;
 }
 
+p b {
+    color: #444;
+}
+
 .p1 {
     margin-left: 15px;
 }
@@ -60,10 +94,12 @@ p {
 }
 
 .navbar {
-    overflow: hidden;
+    width: 800px;
+    display: flex;
+    justify-content: center;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 15px;
     padding-bottom: 10px;
     max-width: 800px;
@@ -85,14 +121,14 @@ p {
 
 .navbar a:hover {
     background-color: #eee;
-    color: black;
+    color: #72bee1
 }
 
 .navbar a.active {
     /*background-color: #67cbe6;
     color: white;*/
     color: black;
-    font-weight: bold
+    font-weight: 400
 }
 
 .navbar .icon {
