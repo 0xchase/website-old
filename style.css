@@ -129,7 +129,6 @@ p b {
     margin: 5px 5px 5px 5px;
     text-decoration: none;
     font-size: 17px;
-    transition: 0.3s;
     border-radius: 5px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -138,7 +137,8 @@ p b {
 .focus,
 .navbar a:hover {
     background-color: #eee;
-    color: #72bee1
+    color: #72bee1;
+    transition: 0.3s;
 }
 
 .navbar a.active {
