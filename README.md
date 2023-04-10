@@ -7,3 +7,12 @@ This is the repository for my personal website.
  - Add jobs work role
  - Add jobs date range
  - Add contact info
+ - Create "favorite" dropdown
+   - Books (current reading list)
+   - Videos
+     - Music Analysis: Tantacrul corporate music, jameson nathan jones, christian henson why synths hard to mix
+     - Economics: MIT opencourseware finance
+     - Philosophy of Physics: Albert, Caroll
+     - Politics: Caroll interview with free speech girl
+     - Philosophy of Mind: Mind chat episode
+     - Other: Emotional credit card commercial
