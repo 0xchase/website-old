@@ -10,7 +10,7 @@ This is the repository for my personal website.
  - Create "favorite" dropdown
    - Books (current reading list)
    - Videos
-     - Music Analysis: Tantacrul corporate music, jameson nathan jones, christian henson why synths hard to mix
+     - Music Analysis: Tantacrul corporate music, jameson nathan jones, christian henson why synths hard to mix, hans composer round table, eric whitacre interview and spitfire choir library overview
      - Computers: Lex Friedman interviews with Jim Keller, 
      - Economics: 2008 HBO documentary, 2008 PBS documentary, Federal reserve PBS documentary, MIT opencourseware finance, blockworks on china economy, realvision guy on macro perspective
      - Philosophy of Physics: Albert, Caroll
