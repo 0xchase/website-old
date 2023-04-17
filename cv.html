@@ -11,7 +11,13 @@
         <a class="active focus" id="focus" onmousemove="removeFocus()" href="cv.html">CV</a>
         <!-- <a href="writeups.html">Writeups</a> -->
         <a href="music.html">Music</a>
-        <a href="books.html">Books</a>
+        <div class="dropdown">
+            <a class="dropdown-button">Favorite <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="books.html">Books</a>
+                <a href="videos.html">Videos</a>
+            </div>
+        </div>
         <a href="blog.html">Blog</a>
         <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
             <i class="fa fa-bars"></i>
@@ -104,17 +110,20 @@
         <h2>Education</h2>
         <h3>Degrees</h3>
         <ul>
-            <li>University of Maryland, College Park (Fall 2017 - Winter 2022)</li>
+            <p>University of Maryland, College Park (Fall 2017 - Winter 2022)</p>
             <ul>
                 <li>Bachelor of Science in Computer Science</li>
                 <li>Minor in ACES (Advanced Cybersecurity Experience for Students)</li>
                 <li>Additional coursework in physics</li>
             </ul>
-            <li>Cetifications</li>
+        </ul>
+        <h3>Certifications</h3>
+        <ul>
+            <p>OSCP (Offensive Security Certified Professional)</p>
             <ul>
                 <li>Completed 3 months of penetration testing training in a lab with 50+ targets</li>
                 <li>Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc</li>
-                <li>Completed a 24 hour practical exam that required the exploitation of 3 simulated targets</li>
+                <li>Completed a 24 hour practical exam that required the exploitation of 3 targets</li>
             </ul>
         </ul>
         <br>

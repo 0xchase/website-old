@@ -11,7 +11,13 @@
         <a href="cv.html">CV</a>
         <!-- <a href="writeups.html">Writeups</a> -->
         <a href="music.html">Music</a>
-        <a class="active focus" id="focus" onmousemove="removeFocus()"  href="books.html">Books</a>
+        <div class="dropdown">
+            <a class="dropdown-button active">Favorite <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="books.html" class="active">Books</a>
+                <a href="videos.html">Videos</a>
+            </div>
+        </div>
         <a href="blog.html">Blog</a>
         <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
             <i class="fa fa-bars"></i>
@@ -21,7 +27,7 @@
 
 <body style="max-width: 1000px">
     <div class="content">
-        <h1>Recommended Books</h1>
+        <h1>Favorite Books</h1>
         <h2>Computer Science</h2>
             <span class="book"><a href="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0" target="_blank"><img src="images/books/c-programming-language.png"></img></a><p>The C Programming Language</p></span>
             <span class="book"><a href="https://www.google.com/books/edition/The_C++_Programming_Language/0klsAQAAQBAJ?hl=en&gbpv=0" target="_blank"><img src="images/books/the-cpp-programming-language.jpeg"></img></a><p>The C++ Programming Language</p></span>
