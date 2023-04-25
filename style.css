@@ -118,7 +118,7 @@ h2 {
 }
 
 .video-mask {
-    width: 100%;
+    width: 95%;
     aspect-ratio: 16/9;
     border-radius: 10px; 
     overflow: hidden; 
