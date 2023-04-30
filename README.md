@@ -11,6 +11,7 @@ This is the repository for my personal website.
  - Add blogs
    - Experience developing procedural audio workstation
    - Reflections on college
+   - The state of the world economy
  - Add jobs work role
  - Add jobs date range
  - Add contact info
