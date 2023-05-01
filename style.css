@@ -296,31 +296,31 @@ table {
     padding: 5px;
 }
 
-th {
+.table th {
     padding: 10px 10px 10px 10px;
 }
 
-td {
+.table td {
     width: 25%;
     padding: 10px 10px 10px 10px;
 }
 
-tbody tr:nth-child(odd) {
+.table tbody tr:nth-child(odd) {
     background-color: #eeeeee;
 }
 
-tbody tr:nth-child(1) {
+.table tbody tr:nth-child(1) {
     background-color: #ddd;
     color: #666;
 }
 
-td:first-child,
-th:first-child {
+.table td:first-child,
+.table th:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-td:last-child,
-th:last-child {
+.table td:last-child,
+.table th:last-child {
   border-radius: 0 5px 5px 0;
 }
 
@@ -419,6 +419,10 @@ th:last-child {
     display: block;
 }
 
+code {
+    font-size: 14px;
+}
+
 @media screen and (max-width: 600px) {
     .video-img {
         width: 100%;
@@ -482,4 +486,53 @@ th:last-child {
         width: 100%;
         text-align: left;
     }
+}
+
+body .gist {
+    padding-left: 30px;
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+body .gist .gist-data {
+  border-bottom: none;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+body .gist .blob-wrapper {
+  border-radius: 5px;
+}
+
+body .gist .highlight {
+  background-color: transparent;
+  font-size: 14px;
+}
+
+body .gist .highlight td {
+  padding: 5px 10px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .gist tr:first-child td {
+  padding-top: 10px !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 10px !important;
+}
+
+body .gist .blob-num {
+  color: #ced4da;
+  pointer-events: none;
+}
+
+body .gist .gist-meta {
+  display: none;
 }

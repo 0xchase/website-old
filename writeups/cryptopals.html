@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chase Kanipe - Blog</title>
+    <meta content="This is the personal website for Chase Kanipe" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <div class="navbar" id="myNavBar">
+        <a href="../index.html">Home</a>
+        <a href="../cv.html">CV</a>
+        <!-- <a href="writeups.html">Projects</a> -->
+        <a href="../music.html">Music</a>
+        <div class="dropdown">
+            <button class="dropdown-button">Favorite <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="../books.html">Books</a>
+                <a href="../videos.html">Videos</a>
+            </div>
+        </div>
+        <a class="active" id="focus" onmousemove="removeFocus()" href="../blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Cryptopals</h1>
+        <p>These are my solutions to the <a target="_blank" href="https://cryptopals.com/">cryptopals</a> cryptography challenges. The difficulty ranges from trivial to advanced.</p>
+
+        <h2>Challenge Set 1</h2>
+
+        <h3>Convert hex to base64</h3>
+        <h4>Problem</h4>
+        <p class="p2">Convert the specified hex string to base64.</p>
+        <h4>Solution</h4>
+        <script src="https://gist.github.com/0xchase/030a97b411cd61927266eeac43356cc0.js"></script>
+        <br>
+
+        <h3>Fixed XOR</h3>
+        <h4>Problem</h4>
+        <p class="p2">Write a function that takes two equal-length buffers and produces their XOR combination.</p>
+        <h4>Solution</h4>
+        <script src="https://gist.github.com/0xchase/263faabc8e8c7f2b2a53ca77a0787b2b.js"></script>
+        <br>
+
+        <h3>Single-byte XOR cipher</h3>
+        <h4>Problem</h4>
+        <p class="p2">The input has been xor'd against an unknown single character. The task is to find the key and decrypt the message.</p>
+        <h4>Solution</h4>
+        <p class="p2">This can be implemented using a scoring system that tracks character frequency. The scores are recoreded in a map.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/da46becfab6b66f2a4b5844eeb5e1301.js"></script>
+        <br>
+
+        <h3>Detect single-character XOR</h3>
+        <h4>Problem</h4>
+        <p class="p2">One of the 60-character strings in the provided file has been encrypted by single-character XOR. Find it an decrypt it.</p>
+        <h4>Solution</h4>
+        <p class="p2">This can be solved by extending the previous code with a check for a decode failure on each line that is processed from the provided file.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/b269c32100cea5e5e8e9631ab2e7a516.js"></script>
+        <br>
+
+        <h3>Implement repeating-key XOR</h3>
+        <h4>Problem</h4>
+        <p class="p2">Write a function that xors a byte string with a multi-byte key. In repeating-key XOR, using the key "ICE", you'll sequentially apply each byte of the key; the first byte of plaintext will be XOR'd against I, the next C, the next E, then I again for the 4th byte, and so on.</p>
+        <h4>Solution</h4>
+        <p class="p2">This can be implemented using a single line of python iterators.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/8a91cf4ac5f1873b0f196be2843315e0.js"></script>
+        <br>
+    </div>
+</body>
+
+<script src="../script.js"></script>
+
+</html>
