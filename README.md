@@ -14,6 +14,7 @@ This is the repository for my personal website.
    - Decompiler for rizin
    - Rise binary analysis framework
    - Arrow framework
+   - Something complicated in assmebly
    - Modality
  - Add blogs
    - Experience developing procedural audio workstation
