@@ -15,6 +15,7 @@ This is the repository for my personal website.
    - Cryptopals solutions
  - Add projects
    - Procedural audio workstation
+   - DSP library for procedural audio
    - CMajor compiler
    - Decompiler for rizin
    - Rise binary analysis framework
