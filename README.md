@@ -22,6 +22,7 @@ This is the repository for my personal website.
    - Arrow framework
    - Something complicated in assmebly
    - Modality
+   - New ghidra UI concept
  - Add blogs
    - Experience developing procedural audio workstation
    - Reflections on college
