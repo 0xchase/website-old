@@ -44,5 +44,6 @@ This is the repository for my personal website.
  - Add jobs work role
  - Add jobs date range
  - Add contact info
+ - Link ADC and R2CON presentation information web pages
  - Favorites
    - Media? (movies, audiobooks, podcasts)
