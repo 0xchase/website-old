@@ -4,6 +4,11 @@ This is the repository for my personal website.
 
 ### Todo
  - Add writeups
+   - Some special relativity solutions
+   - Griffiths quantum mechanics solutions
+   - MIT quantum mechanics problem sets solutions
+   - Some quantum computing solutions
+   - Sean carroll general relativity solutions
    - VFX pictures from my old website
    - Ghidra decompiler writeup
    - Developing various DSP algorithms (reverb specifically)
