@@ -8,6 +8,13 @@ This is the repository for my personal website.
    - Ghidra decompiler writeup
    - Developing various DSP algorithms (reverb specifically)
    - Cryptopals solutions
+ - Add projects
+   - Procedural audio workstation
+   - CMajor compiler
+   - Decompiler for rizin
+   - Rise binary analysis framework
+   - Arrow framework
+   - Modality
  - Add blogs
    - Experience developing procedural audio workstation
    - Reflections on college
