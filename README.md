@@ -2,27 +2,36 @@
 
 This is the repository for my personal website.
 
+## Main Dropdown
+ - Titled "Projects"
+ - Large menu with several columns
+   - Apps
+     - [ ] Procedural audio workstation
+     - [ ] Arrow framework
+   - Code
+     - [ ] CMajor compiler
+     - [ ] Developing reverb algorithms
+     - [ ] Other DSP music algorithms
+     - [ ] Procedural audio DSP library
+     - [ ] Rise binary analysis framework
+     - [ ] Haskell decompiler for rizin
+     - [ ] Something complicated in assembly
+     - [ ] Modality
+   - Writeups
+     - [ ] Cryptopals
+     - [ ] Other CTF solutions?
+   - Problem Sets/Solutions
+     - [ ] Special relativity solutions
+     - [ ] Griffiths quantum solutions
+     - [ ] MIT quantum solutions
+     - [ ] Quantum computing solutions
+     - [ ] General relativity solutions
+   - Other
+     - [ ] VFX pictures old website
+     - [ ] Ghidra UI concept
+     - [ ] Ghidra decompiler evaluation
+
 ### Todo
- - Add writeups
-   - Some special relativity solutions
-   - Griffiths quantum mechanics solutions
-   - MIT quantum mechanics problem sets solutions
-   - Some quantum computing solutions
-   - Sean carroll general relativity solutions
-   - VFX pictures from my old website
-   - Ghidra decompiler writeup
-   - Developing various DSP algorithms (reverb specifically)
-   - Cryptopals solutions
- - Add projects
-   - Procedural audio workstation
-   - DSP library for procedural audio
-   - CMajor compiler
-   - Decompiler for rizin
-   - Rise binary analysis framework
-   - Arrow framework
-   - Something complicated in assmebly
-   - Modality
-   - New ghidra UI concept
  - Add blogs
    - Experience developing procedural audio workstation
    - Reflections on college
