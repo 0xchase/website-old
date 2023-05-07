@@ -73,6 +73,42 @@
         <br>
         <script src="https://gist.github.com/0xchase/8a91cf4ac5f1873b0f196be2843315e0.js"></script>
         <br>
+
+        <h3>Break repeating-key XOR</h3>
+        <h4>Problem</h4>
+        <p class="p2">Given a file that has been base64'd after being encrypted with a repeating-key XOR, decrypt it using the hamming distance between strings.</p>
+        <h4>Solution</h4>
+        <p class="p2">Todo</p>
+        <br>
+
+        <h3>AES in ECB mode</h3>
+        <h4>Problem</h4>
+        <p class="p2">Given a bse64-encoded file that has been encrypted using AES-128 in ECB mode with the key "YELLOW SUBMARINE", decrypt it.</p>
+        <h4>Solution</h4>
+        <p class="p2">This can be implemented using the pycryptodome library.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/b5346e298117aafa94967c0751d9b830.js"></script>
+        <br>
+
+        <h3>Detect AES in ECB mode</h3>
+        <h4>Problem</h4>
+        <p class="p2">Given a bunch of hex-encoded ciphertexts, detect which one has been encrypted with AES in ECB mode.</p>
+        <h4>Solution</h4>
+        <p class="p2">The solution takes advantage of the fact that ECB is stateless and deterministic, so the same 16 byte plaintext will always produce the same 16 byte ciphertext.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/620e8d19343782342cf835aaf58a5427.js"></script>
+        <br>
+
+        <h2>Challenge Set 2</h2>
+
+        <h3>Implement PKCS#7 padding</h3>
+        <h4>Problem</h4>
+        <p class="p2">A block cipher transforms a fixed-sized block (usually 8 or 16 bytes) of plaintext into ciphertext. But we almost never want to transform a single block; we encrypt irregularly-sized messages. One way we account for irregularly-sized messages is by padding, creating a plaintext that is an even multiple of the blocksize. The most popular padding scheme is called PKCS#7. So: pad any block to a specific block length, by appending the number of bytes of padding to the end of the block</p>
+        <h4>Solution</h4>
+        <p class="p2">Calculate the padding size and then append the appropriate byte string to the encoded data.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/b47833a1ca72eb62a7fd0d3a740c8727.js"></script>
+        <br>
     </div>
 </body>
 
