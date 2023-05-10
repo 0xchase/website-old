@@ -1,21 +1,21 @@
 html {
+    font-family: Inter, sans-serif;
     overflow-y: scroll;
 }
 
 head {
-    font-family: Inter, sans-serif;
     color: #848484;
     font-size: 16px;
     font-weight: 300;
     max-width: 800px;
+    letter-spacing: 0.03em;
+    font-weight: 300;
 }
 
 body {
-    font-family: Inter, sans-serif;
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
-    font-family: Inter, sans-serif;
     color: #848484;
     font-size: 16px;
     font-weight: 300;
@@ -257,7 +257,7 @@ p b {
 
 .btn {
     background-color: #72bee1;
-    font-weight: 400px;
+    font-weight: 400;
     border: none;
     color: white;
     padding: 12px 16px;
@@ -367,7 +367,6 @@ table {
 /* ========== Dropdown ========== */
 
 .dropdown {
-    float: left;
     overflow: hidden;
 }
 
@@ -383,6 +382,13 @@ table {
     font-family: inherit;
     font-weight: 300;
     border-radius: 5px;
+    text-align: left;
+}
+
+.submenu .submenu-button {
+    padding-left: 16px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 
 .submenu .submenu-button {
@@ -405,13 +411,14 @@ table {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 5px;
+    text-align: left;
 }
 
 .dropdown-content a,
 .submenu-content a {
     float: none;
     font-size: 16px;
-    padding: 12px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -442,8 +449,8 @@ table {
 }
 
 .submenu-content {
-    top: 0px;
     left: 100%;
+    transform: translate(-0%, -38px);
     min-width: 160px;
 }
 
