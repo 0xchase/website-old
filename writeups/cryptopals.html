@@ -174,6 +174,17 @@
         <br>
         <script src="https://gist.github.com/0xchase/b47833a1ca72eb62a7fd0d3a740c8727.js"></script>
         <br>
+
+        <h3>Implement CBC mode</h3>
+        <h4>Problem</h4>
+        <p class="p2">CBC mode is a block cipher mode that allows us to encrypt irregularly-sized messages, despite the fact that a block cipher natively only transforms individual blocks. In CBC mode, each ciphertext block is added to the next plaintext block before the next call to the cipher core.</p>
+        <p class="p2">The first plaintext block, which has no associated previous ciphertext block, is added to a "fake 0th ciphertext block" called the initialization vector, or IV. Implement CBC mode by hand by taking the ECB function you wrote earlier, making it encrypt instead of decrypt (verify this by decrypting whatever you encrypt to test), and using your XOR function from the previous exercise to combine them.</p>
+        </p>
+        <h4>Solution</h4>
+        <p class="p2">Calculate the padding size and then append the appropriate byte string to the encoded data.</p>
+        <br>
+        <script src="https://gist.github.com/0xchase/b47833a1ca72eb62a7fd0d3a740c8727.js"></script>
+        <br>
     </div>
 </body>
 
