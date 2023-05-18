@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chase Kanipe - Blog</title>
+    <meta content="This is the personal website for Chase Kanipe" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <div class="navbar" id="myNavBar">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropdown-button">About <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="../cv.html">Curriculum Vitale</a>
+                <a href="../personality.html">Personality</a>
+                <div class="submenu">
+                    <button class="submenu-button">Favorite <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content">
+                        <a href="../books.html">Books</a>
+                        <a href="../videos.html">Videos</a>
+                        <a href="../other.html">Podcasts</a>
+                        <a href="../other.html">Music</a>
+                        <a href="../cinema.html">Cinema</a>
+                        <a href="../other.html">Art</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-button">Projects <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <div class="submenu">
+                    <button class="submenu-button">Cybersecurity <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px">
+                        <a href="../arrow-framework.html">Arrow Framework</a>
+                        <a href="../other-application.html">Rise Framework</a>
+                        <a href="../other-application.html">Rise Decompiler</a>
+                        <!-- <a href="../other.html">Ghidra UI Concept</a> -->
+                        <a href="../procedural-audio-workstation.html">Cryptopals</a>
+                        <a href="../other-application.html">Modality</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button">Audio<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content">
+                        <a href="../procedural-audio-workstation.html">P.A. Workstation</a>
+                        <a href="../procedural-audio-workstation.html">P.A. Exporter</a>
+                        <a href="../procedural-audio-workstation.html">CMajor Compiler</a>
+                        <a href="../arrow-framework.html">DSP Library</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button">Physics <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 170px">
+                        <a href="../other-application.html">Special Relativity</a>
+                        <a href="../other-application.html">Griffiths QM</a>
+                        <a href="../other.html">MIT Quantum I</a>
+                        <a href="../other.html">MIT Quantum II</a>
+                        <a href="../other.html">MIT Quantum III</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button">AI<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px">
+                        <a href="../arrow-framework.html">Neural Network in Assembly</a>
+                        <a href="../other.html">Midjourney Art</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button">VFX<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px">
+                        <a href="../other.html">Core Disruption</a>
+                        <a href="../other.html">The Martian Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-button">Music <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="../books.html">Albums</a>
+                <a href="../books.html">Synthesizers</a>
+                <a href="../books.html">Generative</a>
+                <a href="../books.html">Media Composing</a>
+            </div>
+        </div>
+        <a class="active" id="focus" onmousemove="removeFocus()" href="../blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Favorite Podcasts</h1>
+        <p>Here is a list of my favorite podcasts, which I keep here to recommend to friends and serve as a hub for me to access the most recently released episodes.</p>
+        <h2>General</h2>
+        <h3>Making Sense</h3>
+        <p class="p2">Podcast with Sam Harris.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5rgumWEx4FsqIY8e1wJNAk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Mindscape</h3>
+        <p class="p2">Podcast with Sean Carroll.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/622lvLwp8CVu6dvCsYAJhN?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Conversations with Tyler</h3>
+        <p class="p2">Tyler is one of the smartest people on the internet.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0Z1234tGXD2hVhjFrrhJ7g?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Michael Shermer show</h3>
+        <p class="p2">Podcast by one of the world's leading skeptics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4eDCVvVXJVwKCa0QfNbuXA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Clearer Thinking</h3>
+        <p class="p2">Podcast with Spencer Greenberg</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/7d26NkKcJFZKs1ErOU8DyN?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h2>Economics and Finance</h2>
+        <h3>Macro Musings</h3>
+        <p class="p2">This podcast covers economics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/7vsf2QkL0P9Ac7dp3HyUg3?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h3>Inside Economics</h3>
+        <p class="p2">This podcast covers economics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5CDLkuKhOKtxyCurWUMZd1?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h3>Forward Guidance</h3>
+        <p class="p2">This podcast covers economics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4YWyPCna1Sg50fmRJGF0LV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h3>Rational Reminder</h3>
+        <p class="p2">This podcast covers economics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6RHWTH9iW7hdnA7eAg7ukO?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h3>Macro Voices</h3>
+        <p class="p2">This podcast covers economics.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6DX9sYVSZq4YqbpGuxRg6f?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h2>Law</h2>
+        <h3>Advisory Opinions</h3>
+        <p class="p2">This podcast covers the law.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0GDMsFvvXvkt72m1elPhha?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Lawfare</h3>
+        <p class="p2">This podcast covers the law.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1saOaypBQZQU4ER3tM0VeU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <!--
+        <h2>Backburner (expandable)</h2>
+        <h3>Raoul Pal: Real Vision</h3>
+        <p class="p2">This podcast covers finance and crypto.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4VbTalE0Pxxa9PYWcw6IEB?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Nonzero</h3>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/2XrM8luanK2HnvRla8cLYB?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        -->
+
+    </div>
+</body>
+</html>
