@@ -639,3 +639,7 @@ body .gist .blob-num {
 body .gist .gist-meta {
   display: none;
 }
+
+.chart {
+    border-radius: 10px;
+}
