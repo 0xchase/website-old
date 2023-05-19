@@ -98,21 +98,37 @@
 
         <p>This document is an analysis and visualization of my music preferences using data collected from my <a href="https://open.spotify.com/user/1635321" target="_blank">Spotify</a> account using the official <a href="https://developer.spotify.com/documentation/web-api" target="_blank">API</a>. I analyzed and collated with python, and generated various graphs using <a href="https://plotly.com/" target="_blank">plotly</a>.</p>
 
-        <h2>General Stats</h2>
-        <p class="p1">This has basic stats like number of songs, artists, etc.</p>
+        <h2>Genral</h2>
+        <h3>Summary</h3>
+        <p class="p2">
+            My current favorite genres are neo-classical, post-rock, instrumental, pop, indie, ambient, and cinematic—not necessarily in that order.
+        </p>
 
-        <h2>Top Genres</h2>
-        <p class="p1">This is a self-reported list of my top genres</p>
+        <h3>General Statistics</h3>
+        <p class="p2">
+            Here are some general statistics about my music library.
+        </p>
+
 
         <h2>Top Artists</h2>
         <p class="p1">This is a chart of my top artists, ordered by the number of times one of their songs appears in one of my spotify playlists. Some artist's numbers are inflated by a single song appearing in multiple playlists. It's also biased towards film composers because I tend to add entire movie soundtracks into playlists as opposed to individual songs, like in other genres. The x-axis is a log scaled from 10 to 100.</p>
         <br>
         <img class="chart" src="music-charts/top-artists-dark.png" alt="Top Artists" width="100%" height="1600px"></img>
 
-        <h2>Features</h2>
-        <p class="p1">This chart relates various features of the songs in my playlists, specifically the instrumentalness, acousticness, and energy level of the songs.</p>
+        <h2>Genre Proportions</h2>
+        <p class="p1">This chart shows the distribution of genres in my playlists.</p>
         <br>
-        <img class="chart" src="music-charts/features-dark.png" alt="Top Artists" width="100%"></img>
+        <img class="chart" src="music-charts/genre-pie-dark.png" alt="Genre pie chart" width="100%"></img>
+
+        <h2>Genre Preferences Over Time</h2>
+        <p class="p1">This chart plots how the percentage of songs in each genre I've added to my playlists has changed each year from childhood up until the present day. As you can see, my genre preferences usually shift significantly every few years. My preferences have also become more diverse and balanced over time.</p>
+        <br>
+        <img class="chart" src="music-charts/genre-time-dark.png" alt="Genre preferences over time" width="100%"></img>
+
+        <h2>Features</h2>
+        <p class="p1">This chart relates various features of the songs in my playlists as detected by Spotify, specifically the instrumentalness, acousticness, and energy level of the songs.</p>
+        <br>
+        <img class="chart" src="music-charts/features-dark.png" alt="Music features" width="100%"></img>
 
         <h2>Genre Highlights</h2>
         <p class="p1">This is a set of small playlists that feature from highlights from each of my favorite genres.</p>
