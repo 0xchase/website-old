@@ -10,8 +10,8 @@
     <div class="navbar" id="myNavBar">
         <a href="../index.html">Home</a>
         <div class="dropdown">
-            <button class="dropdown-button">About <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
+            <button class="dropdown-button" onclick="toggleDisplay('about')">About <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="about">
                 <a href="../cv.html">Curriculum Vitale</a>
                 <a href="../personality.html">Personality</a>
                 <div class="submenu">
@@ -28,11 +28,11 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropdown-button">Projects <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
+            <button class="dropdown-button" onclick="toggleDisplay('projects')">Projects <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="projects">
                 <div class="submenu">
-                    <button class="submenu-button">Cybersecurity <i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content" style="min-width: 180px">
+                    <button class="submenu-button" onclick="toggleDisplay('cybersecurity')">Cybersecurity <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="cybersecurity">
                         <a href="../arrow-framework.html">Arrow Framework</a>
                         <a href="../other-application.html">Rise Framework</a>
                         <a href="../other-application.html">Rise Decompiler</a>
@@ -42,8 +42,8 @@
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">Audio<i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content">
+                    <button class="submenu-button" onclick="toggleDisplay('audio')">Audio<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" id="audio">
                         <a href="../procedural-audio-workstation.html">P.A. Workstation</a>
                         <a href="../procedural-audio-workstation.html">P.A. Exporter</a>
                         <a href="../procedural-audio-workstation.html">CMajor Compiler</a>
@@ -51,8 +51,8 @@
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">Physics <i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content" style="min-width: 170px">
+                    <button class="submenu-button" onclick="toggleDisplay('about')">Physics <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 170px" id="physics">
                         <a href="../other-application.html">Special Relativity</a>
                         <a href="../other-application.html">Griffiths QM</a>
                         <a href="../other.html">MIT Quantum I</a>
@@ -61,15 +61,15 @@
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">AI<i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content" style="min-width: 180px">
+                    <button class="submenu-button">AI<i class="fa fa-caret-right" onclick="toggleDisplay('ai')"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="ai">
                         <a href="../arrow-framework.html">Neural Network in Assembly</a>
                         <a href="../other.html">Midjourney Art</a>
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">VFX<i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content" style="min-width: 180px">
+                    <button class="submenu-button">VFX<i class="fa fa-caret-right" onclick="toggleDisplay('vfx')"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="vfx">
                         <a href="../other.html">Core Disruption</a>
                         <a href="../other.html">The Martian Game</a>
                     </div>
@@ -77,8 +77,8 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropdown-button">Music <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
+            <button class="dropdown-button" onclick="toggleDisplay('music')">Music <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="music">
                 <a href="../books.html">Albums</a>
                 <a href="../books.html">Synthesizers</a>
                 <a href="../books.html">Generative</a>
