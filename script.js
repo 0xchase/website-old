@@ -19,7 +19,15 @@ function shrinkNavBar() {
 
 function hideAllMenus() {
     document.getElementById("about").style.display = "";
+    document.getElementById("favorite").style.display = "";
+
     document.getElementById("projects").style.display = "";
+    document.getElementById("cybersecurity").style.display = "";
+    document.getElementById("audio").style.display = "";
+    document.getElementById("physics").style.display = "";
+    document.getElementById("ai").style.display = "";
+    document.getElementById("vfx").style.display = "";
+
     document.getElementById("music").style.display = "";
 }
 
@@ -28,6 +36,7 @@ function toggleDisplay(name) {
         var x = document.getElementById(name);
         if (x.style.display.includes("block")) {
             x.style.display = "";
+            expandedId = "";
         } else {
             x.style.display = "block";
         }

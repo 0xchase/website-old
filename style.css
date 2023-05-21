@@ -390,9 +390,6 @@ table {
     padding-left: 16px;
     font-size: 16px;
     letter-spacing: 0.03em;
-}
-
-.submenu .submenu-button {
     margin: 0px 0px 0px 0px;
     width: 100%;
 }
@@ -401,6 +398,8 @@ table {
 .submenu-button .active {
     color: black;
     font-weight: 300;
+    border: none;
+    outline: none;
 }
 
 .dropdown-content,
@@ -444,13 +443,13 @@ table {
     float: right;
 }
 
-.submenu-content {
-    left: 100%;
-    transform: translate(-0%, -38px);
-    min-width: 160px;
-}
-
 @media screen and (min-width: 600px) {
+    .submenu-content {
+        left: 100%;
+        transform: translate(-0%, -38px);
+        min-width: 160px;
+    }
+
     .dropdown:hover .dropdown-content,
     .submenu:hover .submenu-content {
         display: block;
@@ -519,7 +518,8 @@ code {
         float: none;
     }
 
-    .navbar.responsive .dropdown-content {
+    .navbar.responsive .dropdown-content,
+    .submenu-content {
         position: relative;
         border-radius: 5px;
         box-shadow: none;

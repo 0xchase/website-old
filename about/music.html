@@ -15,8 +15,8 @@
                 <a href="../cv.html">Curriculum Vitale</a>
                 <a href="../personality.html">Personality</a>
                 <div class="submenu">
-                    <button class="submenu-button">Favorite <i class="fa fa-caret-right"></i></button>
-                    <div class="submenu-content">
+                    <button class="submenu-button" onclick="toggleDisplay('favorite')">Favorite <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" id="favorite">
                         <a href="../books.html">Books</a>
                         <a href="../videos.html">Videos</a>
                         <a href="../about/podcasts.html">Podcasts</a>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button" onclick="toggleDisplay('about')">Physics <i class="fa fa-caret-right"></i></button>
+                    <button class="submenu-button" onclick="toggleDisplay('physics')">Physics <i class="fa fa-caret-right"></i></button>
                     <div class="submenu-content" style="min-width: 170px" id="physics">
                         <a href="../other-application.html">Special Relativity</a>
                         <a href="../other-application.html">Griffiths QM</a>
@@ -61,14 +61,14 @@
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">AI<i class="fa fa-caret-right" onclick="toggleDisplay('ai')"></i></button>
+                    <button class="submenu-button" onclick="toggleDisplay('ai')">AI<i class="fa fa-caret-right"></i></button>
                     <div class="submenu-content" style="min-width: 180px" id="ai">
                         <a href="../arrow-framework.html">Neural Network in Assembly</a>
                         <a href="../other.html">Midjourney Art</a>
                     </div>
                 </div>
                 <div class="submenu">
-                    <button class="submenu-button">VFX<i class="fa fa-caret-right" onclick="toggleDisplay('vfx')"></i></button>
+                    <button class="submenu-button" onclick="toggleDisplay('vfx')">VFX<i class="fa fa-caret-right"></i></button>
                     <div class="submenu-content" style="min-width: 180px" id="vfx">
                         <a href="../other.html">Core Disruption</a>
                         <a href="../other.html">The Martian Game</a>
