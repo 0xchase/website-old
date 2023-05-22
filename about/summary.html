@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chase Kanipe - Blog</title>
+    <meta content="This is the personal website for Chase Kanipe" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <div class="navbar" id="myNavBar">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropdown-button" onclick="toggleDisplay('about')">About <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="about">
+                <a href="../about/summary.html">Summary</a>
+                <a href="../cv.html">Curriculum Vitale</a>
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('favorite')">Favorite <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" id="favorite">
+                        <a href="../books.html">Books</a>
+                        <a href="../videos.html">Videos</a>
+                        <a href="../about/podcasts.html">Podcasts</a>
+                        <a href="../other.html">Music</a>
+                        <a href="../cinema.html">Cinema</a>
+                        <a href="../other.html">Art</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-button" onclick="toggleDisplay('projects')">Projects <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="projects">
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('cybersecurity')">Cybersecurity <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="cybersecurity">
+                        <a href="../arrow-framework.html">Arrow Framework</a>
+                        <a href="../other-application.html">Rise Framework</a>
+                        <a href="../other-application.html">Rise Decompiler</a>
+                        <!-- <a href="../other.html">Ghidra UI Concept</a> -->
+                        <a href="../procedural-audio-workstation.html">Cryptopals</a>
+                        <a href="../other-application.html">Modality</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('audio')">Audio<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" id="audio">
+                        <a href="../procedural-audio-workstation.html">P.A. Workstation</a>
+                        <a href="../procedural-audio-workstation.html">P.A. Exporter</a>
+                        <a href="../procedural-audio-workstation.html">CMajor Compiler</a>
+                        <a href="../arrow-framework.html">DSP Library</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('physics')">Physics <i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 170px" id="physics">
+                        <a href="../other-application.html">Special Relativity</a>
+                        <a href="../other-application.html">Griffiths QM</a>
+                        <a href="../other.html">MIT Quantum I</a>
+                        <a href="../other.html">MIT Quantum II</a>
+                        <a href="../other.html">MIT Quantum III</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('ai')">AI<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="ai">
+                        <a href="../arrow-framework.html">Neural Network in Assembly</a>
+                        <a href="../other.html">Midjourney Art</a>
+                    </div>
+                </div>
+                <div class="submenu">
+                    <button class="submenu-button" onclick="toggleDisplay('vfx')">VFX<i class="fa fa-caret-right"></i></button>
+                    <div class="submenu-content" style="min-width: 180px" id="vfx">
+                        <a href="../other.html">Core Disruption</a>
+                        <a href="../other.html">The Martian Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-button" onclick="toggleDisplay('music')">Music <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="music">
+                <a href="../books.html">Albums</a>
+                <a href="../books.html">Synthesizers</a>
+                <a href="../books.html">Generative</a>
+                <a href="../books.html">Media Composing</a>
+            </div>
+        </div>
+        <a class="active" id="focus" onmousemove="removeFocus()" href="../blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="shrinkNavBar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Summary</h1>
+
+        <p>
+            Here is some stuff that goes here.
+        </p>
+
+        <h2>About</h2>
+        <p class="p1">
+            Some introductory sentences go here.
+        </p>
+
+        <h2>Career History</h2>
+        <p class="p1">
+            Some introductory sentences go here.
+        </p>
+
+        <h2>Places I've lived</h2>
+        <p class="p1">
+            Map of USA, visualizing all the places I've lived
+        </p>
+
+        <h2>Personality</h2>
+        <p class="p1">
+            Graphs about my personality (Big 5, Myers Briggs, MMPI, etc).
+        </p>
+    </div>
+</body>
+
+<script src="../script.js"></script>
+
+</html>
