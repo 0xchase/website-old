@@ -85,7 +85,7 @@ a:hover {
 }
 
 li {
-    line-height: 1.75em;
+    line-height: 1.6em;
     letter-spacing: 0.03em;
 }
 
@@ -94,8 +94,8 @@ h1 {
     font-size: 40px;
     color: #222;
     font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -219,7 +219,7 @@ h4 {
 }
 
 p {
-    line-height: 1.75em;
+    line-height: 1.6em;
     letter-spacing: 0.03em;
     text-indent: 0px;
     margin-bottom: 0px;
